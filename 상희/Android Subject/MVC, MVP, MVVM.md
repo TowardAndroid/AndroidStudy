@@ -67,7 +67,6 @@ Logic들이 커지고 복잡해짐에 따라 의존성은 더 강해지고, 결�
 
 ### Model
 - 애플리케이션에서 사용되는 실제 데이터 및 데이터 조작 로직을 처리하는 부분이다.
-- View에 의존적이지 않다.
 
 <br/>
 
@@ -99,6 +98,19 @@ Logic들이 커지고 복잡해짐에 따라 의존성은 더 강해지고, 결�
         > View를 업데이트하기 위해서는 결국 M - V 사이에 의존성이 존재하게 된다.  
         게다가 안드로이드는 Activity(or Fragment)가 Controller와 View 모두 처리하기 때문에, 한 클래스에서 M - V - C 모두 처리하게 되는 문제점이 발생한다.
         > 
+
+<br/>
+
+## MVC 패턴을 사용하는 목적
+View와 Model 사이에 Controller를 두어 View와 Model의 의존성(Dependency)을 없앤다.  
+하지만, 실제로는 View에서 Model을 이용하기 때문에 View와 Model은 의존적이다. (Model update → View update)  
+복잡한 대규모 프로그램을 개발하면서 문제점이 확인되었다.
+
+<br/>
+
+### 둘의 의존성을 완전히 분리하기 위한 새로운 패턴
+1. 모델이나 뷰에 대해서 알고 있어야 한다.
+2. 모델이나 뷰의 변경을 모니터링 해야 한다.
 
 <br/>
 
@@ -233,3 +245,4 @@ Model과 View는 MVC, MVP와 동일하다. 하지만 이번에는 Presenter 대�
 - [안드로이드 [Kotlin] - 아키텍처 패턴 with MVC, MVP, MVVM (feat 코드 예제) (tistory.com)](https://jminie.tistory.com/168#1.%20%EB%94%94%EC%9E%90%EC%9D%B8%20%ED%8C%A8%ED%84%B4(Design%20Pattern)%20%EC%9D%B4%EB%9E%80?)
 - [MVC, MVP, MVVM, MVI (brunch.co.kr)](https://brunch.co.kr/@oemilk/113)
 - [MVC, MVP 그리고 MVVM 패턴에 대하여 — 오웬의 개발 이야기 (devowen.com)](https://devowen.com/457)
+- [[ 디자인패턴 ] MVC, MVP, MVVM 패턴 (velog.io)](https://velog.io/@ayoung0073/%EB%94%94%EC%9E%90%EC%9D%B8%ED%8C%A8%ED%84%B4-MVC-MVP-MVVM)
