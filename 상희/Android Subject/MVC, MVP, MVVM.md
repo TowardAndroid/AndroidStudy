@@ -174,13 +174,13 @@ MVC에서 파생된, Model과 View 간의 의존성이 없는 아키텍처 패�
 <br/>
 
 ## MVP 패턴의 특징
-- Preseter와 View는 1:1 관계이다.
+- Presenter와 View는 1:1 관계이다.
 - View와 Model은 서로를 알 필요가 전혀 없다.
 
 <br/>
 
 ## MVP 패턴의 장점
-- View와 Model의 의존성이 없다. (Presentor를 통해서만 데이터를 전달받기 때문이다.)
+- View와 Model의 의존성이 없다. (Presenter를 통해서만 데이터를 전달받기 때문이다.)
 - 따라서 MVC 패턴의 단점을 해결할 수 있다.
 
 <br/>
