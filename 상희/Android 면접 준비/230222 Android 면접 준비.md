@@ -46,8 +46,8 @@ Process는 독립적으로 실행되지만, Thread는 Process 내의 Thread들�
 <br/>
 <br/>
 
-## Q3. 안드로이드 스튜디오의 Thread 에 대해 설명해 주세요. Main Thread와 Worker Thread 등을 구분하는 이유와 Main Thread에서 반드시 동작해야 하는 함수가 있는지도 설명해 주세요.
-안드로이드 스튜디오는 크게 2가지 Thread로 분류된다. Main Thread(UI Thread ) 와 Worker Thread.
+## Q3. 안드로이드 스튜디오의 Thread에 대해 설명해 주세요. Main Thread와 Worker Thread 등을 구분하는 이유와 Main Thread에서 반드시 동작해야 하는 함수가 있는지도 설명해 주세요.
+안드로이드 스튜디오는 크게 2가지 Thread로 분류된다. Main Thread(UI Thread)와 Worker Thread.
 
 <br/>
 
@@ -80,7 +80,7 @@ onStart()는 액티비티가 사용자에게 보여지기 직전에 호출되고
 
 <br/>
 
-> lateinit은 언제는 값을 변경할 수 있고(null 제외), by lazy는 값을 바꾸지 못한다.
+> lateinit은 언제든 값을 변경할 수 있고(null 제외), by lazy는 값을 바꾸지 못한다.
 > 
 
 <br/>
@@ -128,7 +128,7 @@ private val multiAdapter: MultiViewTypeAdapter by lazy {
 - 호출 시점에 by lazy 정의에 의해서 초기화를 진행
 - val(immutable)에서만 사용이 가능
 - 값 교체 불가능
-- lazy 를 사용하는 경우 기본 Synchronized로 동작한다
+- lazy를 사용하는 경우 기본 Synchronized로 동작한다
 
 <br/>
 
