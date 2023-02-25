@@ -36,7 +36,7 @@ Edit : 문서 및 코드 등 파일 수정
 <br/>
 
 ## 2회
-- MVI, MVC, MVP, MVVM, ACC
+- MVI, MVC, MVP, MVVM
 - Builder, Adapter, Observer
 
 <br/>
@@ -68,6 +68,7 @@ Edit : 문서 및 코드 등 파일 수정
 ## 7회
 - ConstraintLayout
 - Image Caching
+- ACC
 
 <br/>
 
