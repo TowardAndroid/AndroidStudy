@@ -36,7 +36,7 @@ Edit : 문서 및 코드 등 파일 수정
 <br/>
 
 ## 2회
-- MVI, MVC, MVP, MVVM, ACC
+- MVI, MVC, MVP, MVVM
 - Builder, Adapter, Observer
 
 <br/>
@@ -68,6 +68,7 @@ Edit : 문서 및 코드 등 파일 수정
 ## 7회
 - ConstraintLayout
 - Image Caching
+- ACC
 
 <br/>
 
@@ -118,4 +119,13 @@ Edit : 문서 및 코드 등 파일 수정
 - MVVM, 실제로 적용해 보자
 - 네이티브, 하이브리드 앱 종류 차이점
 - 안드로이드 성능 개선
+- 
+<br/>
+
+## 16회
+- Clean Architecture
+- 생명주기
+- 4대 컴포넌트
+
+
 
