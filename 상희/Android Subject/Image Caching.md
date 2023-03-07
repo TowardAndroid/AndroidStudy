@@ -197,4 +197,5 @@ UI 스레드에서 메모리 캐시를 확인하는 동안 백그라운드 스�
 - [개린이의 관점에서 Kingfisher 살펴보기(1) - 이미지 캐싱이란? | 1Consumption](https://1consumption.github.io/posts/about-kingfisher(1)/)
 - [안드로이드 이미지 캐시 구현 :: 자바캔(Java Can Do IT) (tistory.com)](https://javacan.tistory.com/entry/android-image-cache-implementation)
 - [비트맵 캐싱  |  Android 개발자  |  Android Developers](https://developer.android.com/topic/performance/graphics/cache-bitmap?hl=ko)
+- [Android-Study/android Image Caching.md at master · taeiim/Android-Study (github.com)](https://github.com/taeiim/Android-Study/blob/master/study/week02/android%20Image%20Caching.md)
 - [[Android] LruCache 사용해 이미지 캐싱하기(Bitmap Cache) — Dev World (kotlinworld.com)](https://kotlinworld.com/368)
