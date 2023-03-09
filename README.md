@@ -36,7 +36,7 @@ Edit : 문서 및 코드 등 파일 수정
 <br/>
 
 ## 2회
-- MVI, MVC, MVP, MVVM
+- MVC, MVP, MVVM
 - Builder, Adapter, Observer
 
 <br/>
@@ -68,64 +68,66 @@ Edit : 문서 및 코드 등 파일 수정
 ## 7회
 - ConstraintLayout
 - Image Caching
-- ACC
 
 <br/>
 
 ## 8회
+- MVI
+- ACC
+
+<br/>
+
+## 9회
 - WebView
 - Coroutines
 
 <br/>
 
-## 9회
+## 10회
 - Java
 - JSON
 
 <br/>
 
-## 10회
+## 11회
 - Realm
 - RxJava
 
 <br/>
 
-## 11회
+## 12회
 - Kotlin DSL
 - Android Kotlin Extension
 
 <br/>
 
-## 12회
+## 13회
 - RxJava 끝장내기
 - Flexible UI
 
 <br/>
 
-## 13회
+## 14회
 - MVP, 실제로 적용해 보자
 - Handling Lifecycles
 
 <br/>
 
-## 14회
+## 15회
 - RxAndroid
 - Socket
 - Service
 
 <br/>
 
-## 15회
+## 16회
 - MVVM, 실제로 적용해 보자
 - 네이티브, 하이브리드 앱 종류 차이점
 - 안드로이드 성능 개선
-- 
+
 <br/>
 
-## 16회
+## 17회
 - Clean Architecture
 - 생명주기
 - 4대 컴포넌트
-
-
-
