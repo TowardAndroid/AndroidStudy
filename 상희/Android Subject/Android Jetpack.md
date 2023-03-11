@@ -16,7 +16,7 @@ Jetpack은 플랫폼 API와는 별도로 제공되는 androidx.* 패키지 라�
 <br/>
 
 ## Android Jetpack을 사용해야 하는 이유
-![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/255cd4fa-e564-44c3-98ef-c88dba1bef9e/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230301%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230301T094215Z&X-Amz-Expires=86400&X-Amz-Signature=0c20ae1e41fbfe520521328d3f6e2e6ee3a5d549f764aecbc89661459d6e62d0&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject)
+![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/255cd4fa-e564-44c3-98ef-c88dba1bef9e/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230311%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230311T001102Z&X-Amz-Expires=86400&X-Amz-Signature=325f1978377e88538393c5c4779749c495b49c5537a4dd6696f81533ef3a868d&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject)
 
 <br/>
 
@@ -112,7 +112,7 @@ Android Jetpack은 기본 Android 플랫폼에 속하지 않은 "별도의" 라�
 
 <br/>
 
-![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/195c4ff7-2b29-4728-9c8d-c81e569621d9/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230301%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230301T094241Z&X-Amz-Expires=86400&X-Amz-Signature=d99eb001e9123ecb82dab4d7c32e59657415a85eab4d73f360c7fc737d894943&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject)
+![Untitled](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/195c4ff7-2b29-4728-9c8d-c81e569621d9/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20230311%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20230311T001141Z&X-Amz-Expires=86400&X-Amz-Signature=d65b6af71b360852636c568bd73635b6b78037a0b3ed29b7b08a1d84ce2a4407&X-Amz-SignedHeaders=host&response-content-disposition=filename%3D%22Untitled.png%22&x-id=GetObject)
 
 > [유형별 Jetpack 라이브러리 살펴보기  |  Android 개발자  |  Android Developers](https://developer.android.com/jetpack/androidx/explorer?hl=ko)
 > 
