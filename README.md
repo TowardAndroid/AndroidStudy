@@ -97,37 +97,42 @@ Edit : 문서 및 코드 등 파일 수정
 <br/>
 
 ## 12회
+- RxAndroid
+- RxKotlin
+
+<br/>
+
+## 13회
 - Kotlin DSL
 - Android Kotlin Extension
 
 <br/>
 
-## 13회
+## 14회
 - RxJava 끝장내기
 - Flexible UI
 
 <br/>
 
-## 14회
+## 15회
 - MVP, 실제로 적용해 보자
 - Handling Lifecycles
 
 <br/>
 
-## 15회
-- RxAndroid
+## 16회
 - Socket
 - Service
 
 <br/>
 
-## 16회
+## 17회
 - MVVM, 실제로 적용해 보자
 - 안드로이드 성능 개선
 
 <br/>
 
-## 17회
+## 18회
 - Clean Architecture
 - 생명주기
 - 4대 컴포넌트
