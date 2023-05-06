@@ -109,34 +109,43 @@ Edit : 문서 및 코드 등 파일 수정
 <br/>
 
 ## 14회
-- 생명 주기
 - Android 4대 컴포넌트
+- Activity Lifecycle
 
 <br/>
 
 ## 15회
+- Fragment Lifecycle
+- View Lifecycle
+
+<br/>
+
+## 16회
+- Service Lifecycle
+- Clean Architecture
+
+<br/>
+
+## 17회
 - RxJava 끝장내기
 - Flexible UI
 
 <br/>
 
-## 16회
+## 18회
 - MVP, 실제로 적용해 보자
 - Handling Lifecycles
 
 <br/>
 
-## 17회
+## 19회
 - Socket
 - Service
 
 <br/>
 
-## 18회
+## 20회
 - MVVM, 실제로 적용해 보자
 - 안드로이드 성능 개선
 
 <br/>
-
-## 18회
-- Clean Architecture
