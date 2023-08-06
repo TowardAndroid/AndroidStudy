@@ -73,7 +73,49 @@ RxJava에서는 이를 해결하려고 비동기 흐름을 조합할 수 있는 
 ### 콜백 방식의 문제점을 개선해야 한다. (Callbacks Have Their Own Problems)
 콜백이 콜백을 부르는 콜백 지옥 상황이 코드의 가독성을 떨어뜨리고 문제 발생 시 디버깅을 어렵게 만든다.  
 비동기 방식으로 동작하는 가장 대표적인 프로그래밍 패턴은 콜백이다. 그래서 RxJava는 콜백을 사용하지 않는 방향으로 설계하여 이를 해결했다.  
-리액티브 프로그래밍은 비동기 연산을 필터링, 변환, 조합하여 위 세가지 핵심 이유를 해결할 수 있다.
+
+<br/>
+
+리액티브 프로그래밍은 비동기 연산을 필터링, 변환, 조합하여 위 세가지 핵심 이유를 해결할 수 있다.  
+따라서 RxJava는 Observable과 같은 데이터 소스와 map(), filter(), reduce()와 같은 리액티브 연산자를 제공한다.
+
+<br/>
+
+## 마블 다이어그램
+마블 다이어그램은 RxJava를 이해하는 핵심 도구이다.  
+map(), flatMap() 함수 등의 수많은 리액티브 연산자들을 이해하는데 큰 도움을 준다.
+
+<br/>
+
+![Untitled](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https://blog.kakaocdn.net/dn/ekhDwY/btqEcHozeR2/TEzAX8xumL0Asnys7miqf1/img.png)
+
+<br/>
+
+1. 위에 있는 실선은 Observable의 시간 표시 줄(timeline)이다. 시간 순으로 데이터가 발행되는 것을 표현한다.
+2. Observable에서 발행하는 데이터이다. 시간 순서대로 별, 삼각형, 오각형, 원 등의 도형을 발행한다. 데이터를 발행할 때는 onNext 알림이 발생한다.
+3. 파이프( | )는 Observable에서 데이터 발행을 완료했다는 의미이다. 한 번 완료하면 이후에는 더 이상 데이터를 발행할 수 없다. 완료하면 onComplete 알림이 발생한다.
+4. 아래로 내려오는 점선 화살표는 각각 함수의 입력과 출력 데이터이다. 가운데 박스는 함수를 의미한다. flip() 함수는 입력 값을 뒤집는 함수이다. 따라서 입력 값의 색상은 그대로 두고 모양을 위아래 180 도 회전하여 뒤집는다.
+5. 함수의 결과가 출력된 표시 시간 줄이다.
+6. 엑스(X)는 함수가 입력 값을 처리할 때 발생한 에러를 의미한다. 에러 발생 시에는 onError 알림이 발생한다.
+
+<br/>
+
+조금 더 복잡한 마블 다이어그램은 아래 그림과 같다.  
+RxJava의 combineLatest() 함수의 마블 다이어그램으로 2개 이상의 Observable을 처리할 수 있다.  
+이전 flip 함수 마블 다이어그램과 다른 점은 Observable의 시간 표시 줄이 1 개가 아니라 2 개로 늘었다는 점이다.
+
+![Untitled](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https://blog.kakaocdn.net/dn/AAnA3/btqEcHhNZ2J/J5UL1EKwYCGPbMzB2YNqgk/img.png)
+
+<br/>
+
+1. 첫 번째 Observable은 같은 모양(원)이지만 색깔이 다른 도형을 발행한다.
+2. 두 번째 Observable은 모양은 다르지만 번호가 없는 도형을 발행한다.
+3. combineLatest() 함수는 첫 번째 Observable의 도형과 두 번째 Observable의 도형이 모두 들어오면 둘을 합성한다.
+4. 가장 아래 시간 표시 줄은 combineLatest() 함수의 실행 결과로 자세히 살펴보면 두 Observable의 결과를 조합한 것임을 알 수 있다. 첫 번째 Observable에서는 색상을 취하고 두 번째 Observable에서는 도형의 모을 취하고 있다.
+
+<br/>
+
+RxJava는 리액티브 프로그래밍이라는 새로운 시각을 제공해 주고 비동기 프로그래밍과 함수형 프로그래밍을 모두 활용해 문제를 해결할 수 있다.
 
 <br/>
 <br/>
