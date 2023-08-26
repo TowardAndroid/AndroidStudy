@@ -127,25 +127,36 @@ Edit : 문서 및 코드 등 파일 수정
 <br/>
 
 ## 17회
-- RxJava 끝장내기
 - Flexible UI
 
 <br/>
 
 ## 18회
-- MVP, 실제로 적용해 보자
 - Handling Lifecycles
 
 <br/>
 
-## 19회
-- Socket
-- Service
+## 19 회
+- RxJava #2
 
 <br/>
 
 ## 20회
-- MVVM, 실제로 적용해 보자
-- 안드로이드 성능 개선
+- Socket
+
+<br/>
+
+## 21회
+- Service
+
+<br/>
+
+## 22회
+- Service #2
+
+<br/>
+
+## 23회
+- Thread
 
 <br/>
